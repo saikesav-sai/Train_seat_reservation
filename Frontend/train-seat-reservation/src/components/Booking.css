@@ -1,5 +1,5 @@
 .booking-container {
-    max-width: 400px;
+    max-width: 500px;
     margin: 20px auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -19,7 +19,7 @@ p {
 }
 
 input[type="number"] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
@@ -27,7 +27,7 @@ input[type="number"] {
 }
 
 button {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     background-color: #4CAF50;
     color: white;
@@ -35,10 +35,24 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    margin-top: 10px;
+    margin-left:25%;
 }
 
 button:hover {
     background-color: #45a049;
+}
+
+button.reset {
+    background-color: #f44336; 
+    width: 25%;
+    font-size: 14px;
+    margin-top:20px;
+    margin-left: 37.5%;
+}
+
+button.reset:hover {
+    background-color: #d32f2f; 
 }
 
 .error-message {
